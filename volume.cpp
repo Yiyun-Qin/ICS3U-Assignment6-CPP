@@ -14,8 +14,8 @@ float Volume(float radiusTop, float radiusBottom, float height) {
 
     // process & output
     float shapeVolume;
-    shapeVolume = 1 / 3 * M_PI * height *
-    (pow(radiusTop, 2.00) + radiusTop * radiusBottom + pow(radiusBottom, 2));
+    shapeVolume = 1 / 3.00 * M_PI * height *
+    (pow(radiusTop, 2) + radiusTop * radiusBottom + pow(radiusBottom, 2));
     return shapeVolume;
 }
 
